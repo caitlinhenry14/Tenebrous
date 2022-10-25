@@ -1,0 +1,21 @@
+{
+  "name": "tenebrous",
+  "displayName": "tenebrous",
+  "description": "caitlin's first attempt at a custom dark vscode theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tenebrous",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tenebrous-color-theme.json"
+      }
+    ]
+  }
+}
